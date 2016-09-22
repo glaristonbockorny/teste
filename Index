@@ -1,0 +1,45 @@
+<!DOCYTPE html>
+<html>
+<head>
+
+	<title>Minha Primeira Pagina</title>	
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
+	<meta charset="utf-8">
+	
+	<!-- Voce deve senore aducuibar sya fikga de estuki (CSS) na tag HEAD, 
+	para que seja iniciado o carregamento antes que a pagina HTML seja exibida -->
+	<link rel="stylesheet" href="style.css" type="text/css" />	
+</head>
+<Body>
+
+<!-- Conteudo da sua pagina em boy -->
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">Minha Primeira Pagina</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="#/home.html">Home</a></li>
+				<li><a href="#/Sobre.html">Sobre</a></li>
+				<li><a href="#/Contato.html">Contato</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h2>Home</h2>
+			<p>
+				Esta é a minha primeira página web! Fiu capaz de codificar todo HTML e CSS"
+			</P>
+			<p>
+				Eu posso usar minhas habilidades para criar sites para minha empresa, meus amigos e familia,
+				meu blog ou portfólio"
+			</P>
+		</div>
+		<div id="footer">
+			<p>
+				Webpage by <a href="/" target="_blank">[Glariston Bockorny]</a>
+			</p>
+		</div>
+	</div>
+</body>
+<html>
